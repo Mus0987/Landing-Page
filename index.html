@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Task2 - Landing Page</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+  </head>
+
+  <body>
+    <!--=========== scroll top ==============-->
+    <a href="#" class="scrolltop show-scroll" id="scroll-top">
+      <box-icon name="up-arrow-alt" class="scrolltop-icon"></box-icon>
+    </a>
+    <header id="header" class="scroll-header">
+      <nav class="navbar">
+        <a href="#" class="nav_logo">Diwali Gift</a>
+
+        <div class="nav_list" id="nav_list">
+          <ul class="nav_menu">
+            <li class="nav_item">
+              <a href="#home" class="nav_link active-link">Home</a>
+            </li>
+            <li class="nav_item">
+              <a href="#share" class="nav_link">Share</a>
+            </li>
+            <li class="nav_item">
+              <a href="#decoration" class="nav_link">Decoration</a>
+            </li>
+            <li class="nav_item">
+              <a href="#accessory" class="nav_link">Accessory</a>
+            </li>
+            <li><box-icon name='toggle-right' class="change-theme" id="theme-button"></box-icon></li>
+          </ul>
+        </div>
+
+        <div class="hamburger">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+      </nav>
+    </header>
+
+    <main class="l-main">
+      <!--========== Home ==========-->
+      <section class="home" id="home">
+        <div class="home_container bd-container">
+          <div class="home_img">
+            <img src="./images/home.webp" alt="" />
+          </div>
+
+          <div class="home_data">
+            <h1 class="home_title">Send A Girft For Diwali</h1>
+            <p class="home_description">
+              In these end of the year holidays send a gift to your loved one
+              and share the happiness at Diwali
+            </p>
+            <a href="" class="button">Get Started</a>
+          </div>
+        </div>
+      </section>
+      <!--============ Home ends ===========-->
+      <!--=========== Share Section starts ===========-->
+      <section class="share bd-container" id="share" >
+        <div class="share_container">
+          <div class="share_data">
+            <h2 class="share_subtitle">
+              Share The Love And Joy With Your Loved Ones
+            </h2>
+            <p class="share_description">
+              Send a message with love, joy and wishes for diwali this
+            </p>
+            <a href="#" class="button">Send a Gift</a>
+          </div>
+
+          <div class="share_img">
+            <img src="./images/share.jpg" alt="" />
+          </div>
+        </div>
+      </section>
+      <!--============ Share Section Ends ===========-->
+
+      <!--============ Decoration Starts ===========-->
+      <section class="decoration bd-container" id="decoration">
+        <h2 class="section-title">
+          Give Diwali Gifts <br />
+          For Your Home
+        </h2>
+        <div class="decoration_container">
+          <div class="decoration_data">
+            <img src="./images/decoration_1.webp" alt="" class="decoration_img" />
+            <h3 class="decoration-title">Diya</h3>
+            <a href="#" class="button button-link">Go Shopping</a>
+          </div>
+
+          <div class="decoration_data">
+            <img src="./images/decoration_2.webp" alt="" class="decoration_img" />
+            <h3 class="decoration-title">Diya</h3>
+            <a href="#" class="button button-link">Go Shopping</a>
+          </div>
+
+          <div class="decoration_data">
+            <img src="./images/decoration_3.avif" alt="" class="decoration_img" />
+            <h3 class="decoration-title">Diya</h3>
+            <a href="#" class="button button-link">Go Shopping</a>
+          </div>
+        </div>
+      </section>
+      <!--============ Decoration Ends ===========-->
+
+      <!--============ Accessories ================-->
+      <section class="accessory bd-container" id="accessory">
+        <h2 class="section-title">New Diwali <br />Accessories</h2>
+        <div class="accessory_container">
+          <div class="accessory_content">
+            <img src="./images/accessory_1.webp" alt="" class="accessory_img" />
+            <h3 class="accessory_title">Snow Globe</h3>
+            <span class="accessory_category">Accessory</span>
+            <span class="accessroy_price">$9.45</span>
+            <a href="" class="button accessory_button"
+              ><box-icon name="heart"></box-icon
+            ></a>
+          </div>
+
+          <div class="accessory_content">
+            <img src="./images/accessory_2.webp" alt="" class="accessory_img" />
+            <h3 class="accessory_title">Snow Globe</h3>
+            <span class="accessory_category">Accessory</span>
+            <span class="accessroy_price">$9.45</span>
+            <a href="" class="button accessory_button"
+              ><box-icon name="heart"></box-icon
+            ></a>
+          </div>
+          <div class="accessory_content">
+            <img src="./images/accessory_3.webp" alt="" class="accessory_img" />
+            <h3 class="accessory_title">Snow Globe</h3>
+            <span class="accessory_category">Accessory</span>
+            <span class="accessroy_price">$9.45</span>
+            <a href="" class="button accessory_button"
+              ><box-icon name="heart"></box-icon
+            ></a>
+          </div>
+        </div>
+      </section>
+      <!--=========== Accessories ends ===========-->
+
+      <!--============ send Gift  =================-->
+      <section class="send section ">
+        <div class="send-container bd-container">
+          <div class="send-content">
+            <h1 class="send-title">Send a Gift</h1>
+            <p class="send-description">
+              Send your loved ones on the happiest day of the year!
+            </p>
+            <form action="">
+              <div class="send-direction">
+                <input
+                  type="text"
+                  placeholder="House Address"
+                  class="send_input"
+                />
+                <a href="" class="button">send</a>
+              </div>
+            </form>
+          </div>
+          <div class="send_img">
+            <img src="./images/send.webp" alt="" />
+          </div>
+        </div>
+      </section>
+      <!--============== Send Gift Ends =============-->
+      <!--=============== footer ====================-->
+
+      <footer class="footer">
+        <div class="footer_container bd-container">
+          <div class="footer_content">
+            <h3 class="footer_title">
+              <a href="#" class="footer_logo">Diwali Gift</a>
+            </h3>
+            <p class="footer_description">I sent a gift and it gives happiness</p>
+          </div>
+          <div class="footer_content">
+            <h3 class="footer_title">Our Service</h3>
+
+            <ul>
+              <li><a href="" class="footer_link">Pricing</a></li>
+              <li><a href="" class="footer_link">Discount</a></li>
+              <li><a href="" class="footer_link">Shipping</a></li>
+            </ul>
+          </div>
+
+          <div class="footer_content">
+            <h3 class="footer_title">Our Company</h3>
+
+            <ul>
+              <li><a href="" class="footer_link">Blog</a></li>
+              <li><a href="" class="footer_link">About Us</a></li>
+              <li><a href="" class="footer_link">Our Mission</a></li>
+            </ul>
+          </div>
+
+          <div class="footer_content">
+            <h3 class="footer_title">Social</h3>
+            <a href="#" class="footer_social"><box-icon type='logo' name='facebook-circle'></box-icon></a>
+            <a href="#" class="footer_social"><box-icon type='logo' name='twitter'></box-icon></a>
+            <a href="#" class="footer_social"><box-icon type='logo' name='instagram-alt'></box-icon
+          </div>
+        </div>
+
+        <p class="footer_copy">&#169; 2023. All Rights Reserved</p>
+      </footer>
+    
+    </main>
+
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
