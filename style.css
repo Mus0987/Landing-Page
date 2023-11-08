@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merienda:wght@500&family=Ubuntu&display=swap');
+
 
 :root {
     --header-height: 3rem;
@@ -137,6 +139,8 @@ nav {
 
 .nav_logo {
     font-size: 2rem;
+    color: #d42130;
+    font-family: 'Merienda', cursive;
 }
 
 .nav_link {
